@@ -414,7 +414,6 @@ public class Main extends JavaPlugin {
             armorstand.setSmall(false);
             armorstand.setGravity(true);
         }
-        List<Entity> entities = new ArrayList<>();
         for(World world:Bukkit.getServer().getWorlds()) {
             for(Entity e:world.getEntities()) {
                 if(e.getType().equals(EntityType.DROPPED_ITEM)) {
