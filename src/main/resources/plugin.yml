@@ -1,0 +1,48 @@
+main: "plugin.minecraft.jinro.Main"
+name: "JinroRPG"
+version: "${project.version}"
+api-version: "1.12.2"
+author: "eight_y_88"
+website: "None"
+description: Minecraft Jinro RPG Minigame Plugin
+commands:
+  start:
+    description: This is a command what start game
+    usage: /<command>
+    permission: op
+    permission-message: You don't have <permission>
+  end:
+    description: This is a command what end game
+    usage: /<command>
+    permission: op
+    permission-message: You don't have <permission>
+  shopkeeper:
+    description: This is a command what get shopkeeper spawn egg
+    usage: /<command>
+    permission: op
+    permission-message: You don't have <permission>
+  gamesign:
+    description: This is a command what get sign
+    usage: /<command>
+    permission: op
+    permission-message: You don't have <permission>
+  banhammer:
+    description: This is a command what banhammer
+    usage: /<command>
+    permission: op
+    permission-message: You don't have <permission>
+  list:
+    description: This is a command what see player list
+    usage: /<command>
+    permission: jinro.test
+    permission-message: You don't have <permission>
+  shop:
+    description: This is a command what show shop
+    usage: /<command>
+    permission: jinro.test
+    permission-message: You don't have <permission>
+
+permissions:
+  jinro.test:
+    description: Test Permission
+    default: true
