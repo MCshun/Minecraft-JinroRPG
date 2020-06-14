@@ -64,8 +64,6 @@ public class Events implements Listener {
         if(Main.isStarted()) {
             e.getPlayer().setGameMode(GameMode.SPECTATOR);
             e.getPlayer().sendMessage(Main.getJinroMessage() + "すでにゲームが開始していたため、スペクテイターモードになりました。");
-        } else {
-            e.getPlayer().setGameMode(GameMode.CREATIVE);
         }
     }
 
